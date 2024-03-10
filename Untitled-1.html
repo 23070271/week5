@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Danh sách sinh viên</title>
+  <style type="text/css">
+    .StudentsDetails {
+      display: none;
+    }
+
+    .Students img {
+      width: 150px;
+      height: 150px;
+      border-radius: 20px;
+      box-shadow: 5px 5px 10px #aaa;
+    }
+
+    .StudentsName {
+      font-weight: bold;
+    }
+
+    .StudentsID {
+      font-style: italic;
+    }
+
+    .StudentsID:before {
+      content: " - ";
+    }
+
+    .StudentsClass {
+      font-style: italic;
+    }
+
+    .StudentsClass:before {
+      content: " - ";
+    }
+
+    .Students {
+      text-align: center;
+      width: 150px;
+      margin: 0px 20px;
+      float: left;
+      cursor: pointer;
+    }
+
+    .Students:hover .StudentsDetails {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="Students">
+      <img src="imgs/Tí.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Nguyễn Hoàng Kiên</span> 
+        <span class="StudentsID">23070271</span>
+        <span class="StudentsClass">ISEL2023A</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Sửu.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Lê Phúc Đạt</span>
+        <span class="StudentsID">23070377</span>
+        <span class="StudentsClass">FPTK19A</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Dần.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Nguyễn Gia Hiển</span>
+        <span class="StudentsID">2394859</span>
+        <span class="StudentsClass">FPTk19A</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Thỏ.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Nguyễn Văn Chế</span>
+        <span class="StudentsID">23056789</span>
+        <span class="StudentsClass">K18AFPT</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Thìn.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Nguyễn Thành Cúc</span>
+        <span class="StudentsID">2307935</span>
+        <span class="StudentsClass">ISEL2022B</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Tỵ.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Nguyễn Mạnh Hưng</span>
+        <span class="StudentsID">23070234</span>
+        <span class="StudentsClass">ISEL2023A</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Ngọ.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Mai Hà Phương</span>
+        <span class="StudentsID">23070312</span>
+        <span class="StudentsClass">BEL2022A</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Mùi.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Bùi Anh Minh</span>
+        <span class="StudentsID">23070219</span>
+        <span class="StudentsClass">FDB2023A</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Thân.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Nguyễn Quốc Đại</span>
+        <span class="StudentsID">22071090</span>
+        <span class="StudentsClass">FDB2023A</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Dậu.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Phùng Ngọc Hiệp</span>
+        <span class="StudentsID">23070242</span>
+        <span class="StudentsClass">FDB2023A</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Tuất.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Nguyễn Văn Hoàng Nam</span>
+        <span class="StudentsID">23079999</span>
+        <span class="StudentsClass">AIT2023A</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Hợi.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Đỗ Gia Bách</span>
+        <span class="StudentsID">23070425</span>
+        <span class="StudentsClass">FDB2023A</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Chuột.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Lê Gia Nhuận</span>
+        <span class="StudentsID">2307888</span>
+        <span class="StudentsClass">AIT2023A</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Hổ.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Nguyễn Mạnh Cường</span>
+        <span class="StudentsID">23070088</span>
+        <span class="StudentsClass">ISEL2023A</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Rắn.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Parkseori</span>
+        <span class="StudentsID">23089879</span>
+        <span class="StudentsClass">ISEl2023A</span>
+      </div>
+    </div>
+
+    <div class="Students">
+      <img src="imgs/Trâu.jpg" >
+      <div class="StudentsDetails">
+        <span class="StudentsName">Lê Min Ho</span>
+        <span class="StudentsID">2304386</span>
+        <span class="StudentsClass">FDB2023A</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+ 51 changes: 51 additions & 0 deletions51  
+week5.html/figure7.1.html
+@@ -0,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>The priority of selectors</title>
+  <style type="text/css">
+    * {
+      font: 20px "Comic Sans MS";
+    }
+
+    MyCustomizeTag {
+      display: block;
+      text-align: center;
+      text-transform: capitalize;
+      text-decoration: underline;
+      width: 500px;
+    }
+
+    div {
+      background-color: yellow;
+      margin: 0px 0px 5px 5px;
+      width: 300px;
+    }
+
+    .GroupFormat {
+      font-weight: bold;
+      color: #100;
+      width: 400px;
+    }
+
+    #TheHighestPriority {
+      background-color: #000;
+      font-weight: normal;
+      font: italic 30px "Times New Roman";
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <MyCustomizeTag>Here is customize tag</MyCustomizeTag>
+  <div>The first paragraph.</div>
+  <div class="GroupFormat">The second paragraph.</div>
+  <div class="GroupFormat" id="TheHighestPriority">
+    The third paragraph.
+  </div>
+  <div>The fourth paragraph.</div>
+  <div class="GroupFormat">The fifth paragraph.</div>
+  <div class="GroupFormat">The sixth paragraph.</div>
+  <div>The seventh paragraph.</div>
+</body>
+</html>
+ 29 changes: 29 additions & 0 deletions29  
+week5.html/figure7.2.html
+@@ -0,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Recognize odd and even element</title>
+  <style>
+    div {
+      width: 400px;
+    }
+
+    div:nth-child(even) {
+      background: #f9f9f9; /* even | odd */
+    }
+
+    div:nth-child(2n + 1) {
+      background: #ff9; /* an + b */
+    }
+  </style>
+</head>
+<body>
+  <h1>Aptech Semester 1's Subject</h1>
+  <div>Elementary Programming in C.</div> 
+  <div>Explore HTML, DHTML, and JavaScript.</div> 
+  <div>Designing Web Sites in Dreamweaver.</div> 
+  <div>RDBMS and Data Management.</div>
+  <div>Working with SQL Server Database Objects.</div> 
+  <div>eProject (Dreamweaver).</div>
+</body> 
+</html>
+ 70 changes: 70 additions & 0 deletions70  
+week5.html/figure7.3.html
+@@ -0,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Create product list with CSS3</title>
+  <style type="text/css">
+    .ProductDetails {
+      display: none;
+    }
+
+    .Product img {
+      width: 150px;
+      height: 150px;
+      border-radius: 20px;
+      box-shadow: 5px 5px 10px #aaa;
+    }
+
+    .ProductName {
+      font-weight: bold;
+    }
+
+    .ProductPrice {
+      font-style: italic;
+    }
+
+    .ProductPrice:before {
+      content: " - ";
+    }
+
+    .Product {
+      text-align: center;
+      width: 150px;
+      margin: 0px 20px;
+      float: left;
+      cursor: pointer;
+    }
+
+    .Product:hover .ProductDetails {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="Product">
+      <img src="imgs/Rose.png" />
+      <div class="ProductDetails">
+        <span class="ProductName">Rose</span> 
+        <span class="ProductPrice">1.5$</span>
+      </div>
+    </div>
+
+    <div class="Product">
+      <img src="imgs/Tulip.jpg" /> 
+      <div class="ProductDetails">
+        <span class="ProductName">Tulip</span>
+        <span class="ProductPrice">2.0$</span>
+      </div>
+    </div>
+
+    <div class="Product">
+      <img src="imgs/Daisy.jpg" />
+      <div class="ProductDetails">
+        <span class="ProductName">Daisy</span>
+        <span class="ProductPrice">1.0$</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
